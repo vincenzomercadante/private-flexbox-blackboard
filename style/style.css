@@ -59,6 +59,7 @@ h1{
     align-items: center;
     height: 75vh;
     background-color: #b5b28e;
+    position: relative;
 }
 
 .blackboard-container{
@@ -74,6 +75,7 @@ h1{
     box-shadow: 5px 10px 18px black;
     background-color: #156630;
     color: white;
+
 }
 
 .flex-container{
@@ -87,4 +89,18 @@ h1{
     border-radius: 10px;
     text-align: center;
     font-size: 4rem;
+}
+
+#bart{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    height: 500px;
+}
+
+/* footer */
+.footer{
+    height: 10vh;
+    background-color: #794a33;
+    border-top: 4px solid black;
 }
