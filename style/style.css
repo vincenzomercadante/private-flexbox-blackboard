@@ -1,5 +1,4 @@
 /* reset */
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -9,6 +8,7 @@
 /* generics */
 body{
     font-family: 'Shrikhand', serif;
+    overflow: hidden;
 }
 
 ul{
@@ -103,4 +103,5 @@ h1{
     height: 10vh;
     background-color: #794a33;
     border-top: 4px solid black;
+    box-shadow: black;
 }
